@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.result.mapper.ScmNretailResultMapper">
+    <delete id="truncate">
+        TRUNCATE table scm_nretail_ipw
+    </delete>
+    <select id="list" resultType="org.jeecg.modules.result.entity.ScmNretailResult">
+        SELECT * FROM `scm_nretail_ipw` order by ds desc
+    </select>
+    <update id="update">
+        UPDATE predict.scm_nretail_ipw AS a
+        LEFT JOIN input.scm_nretail_ipw AS b
+        ON a.matnr = b.matnr
+        AND a.ds = b.ds
+        AND a.prov = b.prov
+        SET a.cnt = b.cnt
+        WHERE a.cnt IS NULL
+    </update>
+    <select id="countByEval" resultType="org.jeecg.modules.result.vo.ScmNretailQuotaVo">
+        select count(*) total,
+        SUM(CASE  WHEN eval>0.6 THEN 	1 ELSE	NULL END )/count(*) as lowpercent,
+        SUM(CASE  WHEN eval>0.7 THEN 	1 ELSE	NULL END )/count(*) as midpercent,
+        SUM(CASE  WHEN eval>0.8 THEN 	1 ELSE	NULL END )/count(*) as highpercent
+        from scm_nretail_ipw
+    </select>
+    <select id="evalList" resultType="map">
+        SELECT ds,eval FROM `scm_nretail_ipw` GROUP BY ds order by ds
+    </select>
+    <select id="evalpmList"  resultType="map">
+        select  ds,eval from `scm_nretail_ipw` where matnr=#{matnr} and prov=#{prov} GROUP BY matnr,prov,ds order by ds
+    </select>
+</mapper>

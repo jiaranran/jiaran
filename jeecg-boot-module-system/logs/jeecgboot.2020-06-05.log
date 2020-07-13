@@ -1,0 +1,276 @@
+2020-06-05 15:46:14.722 [main] INFO  org.jeecg.JeecgApplication:50 - Starting JeecgApplication v2.0.1 on cmcc-PC with PID 23384 (D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system\target\jeecg-boot-module-system-2.0.1.jar started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system\target)
+2020-06-05 15:46:14.731 [main] INFO  org.jeecg.JeecgApplication:679 - The following profiles are active: dev
+2020-06-05 15:46:18.127 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-06-05 15:46:18.937 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-05 15:46:18.942 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-05 15:46:19.038 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 85ms. Found 0 repository interfaces.
+2020-06-05 15:46:19.062 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-05 15:46:19.067 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-05 15:46:19.112 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2020-06-05 15:46:20.269 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$274379f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:20.570 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:25.331 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:25.490 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:25.762 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73e105b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:26.284 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:26.300 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$70cc812c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:26.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:26.354 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:26.420 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:26.456 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$1c57cea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:26.975 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:27.194 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:27.244 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$7212013b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:27.347 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1a56ee0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:27.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-05 15:46:28.396 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2020-06-05 15:46:28.454 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-05 15:46:28.484 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2020-06-05 15:46:28.488 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-06-05 15:46:28.523 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;D:\software\apache-maven-3.6.1\bin;D:\software\SDK\platform-tools;D:\putty\;D:\Users\cmcc\Anaconda3\Scripts;D:\Users\cmcc\Anaconda3;D:\Users\cmcc\Anaconda3\Library\bin;C:\Users\cmcc\Downloads\chromedriver_win32;D:\software\spark-2.4.5-bin-hadoop2.7\bin;D:\Program Files\MongoDB\Server\4.2\bin;C:\Users\cmcc\AppData\Local\Microsoft\WindowsApps;.]
+2020-06-05 15:46:28.955 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/dgs-cmdc]:173 - Initializing Spring embedded WebApplicationContext
+2020-06-05 15:46:28.956 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 14095 ms
+2020-06-05 15:46:34.092 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-06-05 15:46:34.261 [cluster-ClusterId{value='5ed9f85aed84b55b58d73f05', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:157}] to localhost:27017
+2020-06-05 15:46:34.276 [cluster-ClusterId{value='5ed9f85aed84b55b58d73f05', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9984900}
+2020-06-05 15:46:35.195 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-06-05 15:46:36.434 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-06-05 15:46:36.591 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-06-05 15:46:36.750 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-06-05 15:46:36.752 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-06-05 15:46:36.761 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-06-05 15:46:36.762 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-06-05 15:46:36.775 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-06-05 15:46:36.780 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-06-05 15:46:44.706 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-06-05 15:46:44.755 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-06-05 15:46:44.759 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-06-05 15:46:44.776 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-06-05 15:46:44.787 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-06-05 15:46:44.790 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-06-05 15:46:44.793 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-06-05 15:46:44.804 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-06-05 15:46:44.809 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6ef7623
+2020-06-05 15:46:54.340 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-05 15:46:54.692 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-05 15:46:54.755 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:31 - start asyncServiceExecutor
+2020-06-05 15:46:54.764 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-06-05 15:46:54.767 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-06-05 15:46:58.037 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2020-06-05 15:46:58.241 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-06-05 15:46:58.304 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-06-05 15:46:58.413 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-06-05 15:46:59.005 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-06-05 15:46:59.012 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-06-05 15:46:59.019 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-06-05 15:46:59.036 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-06-05 15:46:59.098 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-06-05 15:46:59.627 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-06-05 15:46:59.646 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-06-05 15:46:59.650 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-06-05 15:46:59.654 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-06-05 15:46:59.662 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-06-05 15:46:59.680 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-06-05 15:46:59.747 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-05 15:46:59.834 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path '/dgs-cmdc'
+2020-06-05 15:46:59.846 [main] INFO  org.jeecg.JeecgApplication:59 - Started JeecgApplication in 46.9 seconds (JVM running for 47.765)
+2020-06-05 15:46:59.912 [main] INFO  org.jeecg.JeecgApplication:34 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/dgs-cmdc/
+	External: 	http://2.0.1.134:8080/dgs-cmdc/
+	swagger-ui: 	http://2.0.1.134:8080/dgs-cmdc/swagger-ui.html
+	Doc: 		http://2.0.1.134:8080/dgs-cmdc/doc.html
+----------------------------------------------------------
+2020-06-05 15:47:23.547 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/dgs-cmdc]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-05 15:47:23.552 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-06-05 15:47:23.587 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 29 ms
+2020-06-05 15:47:25.304 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:145 - 原始数据总行数:1946
+2020-06-05 15:47:25.862 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1882行有空值
+2020-06-05 15:47:25.867 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1883行有空值
+2020-06-05 15:47:25.871 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1884行有空值
+2020-06-05 15:47:25.880 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1885行有空值
+2020-06-05 15:47:25.886 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1886行有空值
+2020-06-05 15:47:25.916 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1887行有空值
+2020-06-05 15:47:25.922 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1888行有空值
+2020-06-05 15:47:25.933 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1889行有空值
+2020-06-05 15:47:25.935 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1890行有空值
+2020-06-05 15:47:25.937 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1891行有空值
+2020-06-05 15:47:25.944 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1892行有空值
+2020-06-05 15:47:25.953 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1893行有空值
+2020-06-05 15:47:25.955 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1894行有空值
+2020-06-05 15:47:25.969 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1895行有空值
+2020-06-05 15:47:25.984 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1896行有空值
+2020-06-05 15:47:25.988 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1897行有空值
+2020-06-05 15:47:26.016 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1898行有空值
+2020-06-05 15:47:26.022 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1899行有空值
+2020-06-05 15:47:26.036 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1900行有空值
+2020-06-05 15:47:26.038 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1901行有空值
+2020-06-05 15:47:26.052 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1902行有空值
+2020-06-05 15:47:26.066 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1903行有空值
+2020-06-05 15:47:26.068 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1904行有空值
+2020-06-05 15:47:26.071 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1905行有空值
+2020-06-05 15:47:26.084 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1906行有空值
+2020-06-05 15:47:26.086 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1907行有空值
+2020-06-05 15:47:26.094 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1908行有空值
+2020-06-05 15:47:26.101 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1909行有空值
+2020-06-05 15:47:26.104 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1910行有空值
+2020-06-05 15:47:26.114 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1911行有空值
+2020-06-05 15:47:26.119 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1912行有空值
+2020-06-05 15:47:26.130 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1913行有空值
+2020-06-05 15:47:26.138 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1914行有空值
+2020-06-05 15:47:26.144 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1915行有空值
+2020-06-05 15:47:26.168 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1916行有空值
+2020-06-05 15:47:26.184 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1917行有空值
+2020-06-05 15:47:26.195 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1918行有空值
+2020-06-05 15:47:26.217 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1919行有空值
+2020-06-05 15:47:26.226 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1920行有空值
+2020-06-05 15:47:26.237 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1921行有空值
+2020-06-05 15:47:26.243 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1922行有空值
+2020-06-05 15:47:26.254 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1923行有空值
+2020-06-05 15:47:26.267 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1924行有空值
+2020-06-05 15:47:26.270 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1925行有空值
+2020-06-05 15:47:26.284 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1926行有空值
+2020-06-05 15:47:26.297 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1927行有空值
+2020-06-05 15:47:26.310 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1928行有空值
+2020-06-05 15:47:26.322 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1929行有空值
+2020-06-05 15:47:26.337 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1930行有空值
+2020-06-05 15:47:26.343 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1931行有空值
+2020-06-05 15:47:26.351 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1932行有空值
+2020-06-05 15:47:26.354 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1933行有空值
+2020-06-05 15:47:26.363 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1934行有空值
+2020-06-05 15:47:26.366 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1935行有空值
+2020-06-05 15:47:26.378 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1936行有空值
+2020-06-05 15:47:26.387 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1937行有空值
+2020-06-05 15:47:26.392 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1938行有空值
+2020-06-05 15:47:26.401 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1939行有空值
+2020-06-05 15:47:26.405 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1940行有空值
+2020-06-05 15:47:26.418 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1941行有空值
+2020-06-05 15:47:26.420 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1942行有空值
+2020-06-05 15:47:26.433 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1943行有空值
+2020-06-05 15:47:26.434 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1944行有空值
+2020-06-05 15:47:26.438 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:193 - ---------第1945行有空值
+2020-06-05 15:47:26.450 [http-nio-8080-exec-2] INFO  org.jeecg.modules.util.ReadExcel:261 - ---------共去除64行-----------
+2020-06-05 15:47:28.020 [http-nio-8080-exec-2] INFO  o.j.m.predict.controller.ScmNretailController:210 - 文件导入成功！数据行数:1800
+2020-06-05 15:47:28.099 [http-nio-8080-exec-2] INFO  o.j.m.predict.controller.ScmNretailController:226 - 销量数据汇总成功！数据行数:439
+2020-06-05 15:47:28.121 [http-nio-8080-exec-2] INFO  o.j.m.predict.controller.ScmNretailController:228 - 缺失日期补全成功！数据行数:753
+2020-06-05 15:47:28.216 [http-nio-8080-exec-2] INFO  o.j.m.predict.controller.ScmNretailController:284 - 异常值平滑处理成功！数据行数:753
+2020-06-05 15:47:30.469 [http-nio-8080-exec-2] INFO  o.j.m.predict.controller.ScmNretailController:244 - 汇总数据入库成功！数据行数:1506
+2020-06-05 15:47:30.563 [http-nio-8080-exec-2] INFO  o.j.m.predict.controller.ScmNretailController:571 - 导出CSV文件成功
+2020-06-05 15:47:30.594 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-06-05 15:47:30.598 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]
+2020-06-05 15:47:30.602 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]
+2020-06-05 15:47:30.614 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]
+2020-06-05 15:47:30.619 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]
+2020-06-05 15:47:30.645 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\130000\scm_nretail_ipw_1C29000100000100_130000.csv -o D:\\Desktop\\office\\result\\130000\scm_nretail_ipw_1C29000100000100_130000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_1C29000100000100_130000.log
+2020-06-05 15:47:30.643 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_001032033600000100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_001032033600000100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_001032033600000100_350000.log
+2020-06-05 15:47:30.654 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]
+2020-06-05 15:47:30.658 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_001371000301009100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_001371000301009100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_001371000301009100_350000.log
+2020-06-05 15:47:30.687 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [6], queueSize [0]
+2020-06-05 15:47:30.659 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_001409001700000100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_001409001700000100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_001409001700000100_350000.log
+2020-06-05 15:47:30.695 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [6], queueSize [1]
+2020-06-05 15:47:30.698 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [6], queueSize [2]
+2020-06-05 15:47:30.703 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [6], queueSize [3]
+2020-06-05 15:47:30.699 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_1C29000100000100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_1C29000100000100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_1C29000100000100_350000.log
+2020-06-05 15:47:30.725 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_001371000301009100_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_001371000301009100_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_001371000301009100_440000.log
+2020-06-05 15:47:30.728 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [10], completedTaskCount [0], activeCount [6], queueSize [4]
+2020-06-05 15:47:30.748 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [11], completedTaskCount [0], activeCount [6], queueSize [5]
+2020-06-05 15:47:30.750 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [12], completedTaskCount [0], activeCount [6], queueSize [6]
+2020-06-05 15:47:30.754 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [13], completedTaskCount [0], activeCount [6], queueSize [7]
+2020-06-05 15:47:30.764 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [14], completedTaskCount [0], activeCount [6], queueSize [8]
+2020-06-05 15:47:30.768 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [15], completedTaskCount [0], activeCount [6], queueSize [9]
+2020-06-05 15:47:30.779 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [16], completedTaskCount [0], activeCount [6], queueSize [10]
+2020-06-05 15:47:30.785 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [17], completedTaskCount [0], activeCount [6], queueSize [11]
+2020-06-05 15:47:30.801 [http-nio-8080-exec-2] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [18], completedTaskCount [0], activeCount [6], queueSize [12]
+2020-06-05 15:47:40.663 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:40.664 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_1C29000100000100_130000.csv脚本运行时间：10秒
+2020-06-05 15:47:40.666 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_1C29000100000100_130000.csv预测脚本调度成功
+2020-06-05 15:47:40.669 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:40.680 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_001032033600000100_350000.csv脚本运行时间：10秒
+2020-06-05 15:47:40.682 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:40.682 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_001032033600000100_350000.csv预测脚本调度成功
+2020-06-05 15:47:40.693 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_001371000301009100_350000.csv脚本运行时间：10秒
+2020-06-05 15:47:40.696 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_001371000301009100_350000.csv预测脚本调度成功
+2020-06-05 15:47:40.700 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:40.715 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_001409001700000100_350000.csv脚本运行时间：10秒
+2020-06-05 15:47:40.717 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_001409001700000100_350000.csv预测脚本调度成功
+2020-06-05 15:47:40.730 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:40.734 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_1C29000100000100_350000.csv脚本运行时间：10秒
+2020-06-05 15:47:40.744 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:40.745 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_1C29000100000100_350000.csv预测脚本调度成功
+2020-06-05 15:47:40.750 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_001371000301009100_440000.csv脚本运行时间：10秒
+2020-06-05 15:47:40.761 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_001371000301009100_440000.csv预测脚本调度成功
+2020-06-05 15:47:40.931 [async-service-3] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_001371000301009100_350000.csv解析结果文件成功
+2020-06-05 15:47:40.934 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_002127096701003000_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_002127096701003000_440000.log
+2020-06-05 15:47:40.986 [async-service-4] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_001409001700000100_350000.csv解析结果文件成功
+2020-06-05 15:47:40.988 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_002127114501006000_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_002127114501006000_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_002127114501006000_440000.log
+2020-06-05 15:47:41.043 [async-service-2] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_001032033600000100_350000.csv解析结果文件成功
+2020-06-05 15:47:41.044 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_1C29000100000100_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_1C29000100000100_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_1C29000100000100_440000.log
+2020-06-05 15:47:41.102 [async-service-6] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_001371000301009100_440000.csv解析结果文件成功
+2020-06-05 15:47:41.103 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\130000\scm_nretail_ipw_XC29000100000100_130000.csv -o D:\\Desktop\\office\\result\\130000\scm_nretail_ipw_XC29000100000100_130000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_XC29000100000100_130000.log
+2020-06-05 15:47:41.142 [async-service-1] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_1C29000100000100_130000.csv解析结果文件成功
+2020-06-05 15:47:41.143 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_X01032033600000100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_X01032033600000100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_X01032033600000100_350000.log
+2020-06-05 15:47:41.177 [async-service-5] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_1C29000100000100_350000.csv解析结果文件成功
+2020-06-05 15:47:41.178 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_X01371000301009100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_X01371000301009100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_X01371000301009100_350000.log
+2020-06-05 15:47:50.936 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:50.937 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒
+2020-06-05 15:47:50.939 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_002127096701003000_440000.csv预测脚本调度成功
+2020-06-05 15:47:50.984 [async-service-3] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_002127096701003000_440000.csv解析结果文件成功
+2020-06-05 15:47:50.986 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_X01409001700000100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_X01409001700000100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_X01409001700000100_350000.log
+2020-06-05 15:47:50.996 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:51.001 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_002127114501006000_440000.csv脚本运行时间：10秒
+2020-06-05 15:47:51.012 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_002127114501006000_440000.csv预测脚本调度成功
+2020-06-05 15:47:51.047 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:51.048 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_1C29000100000100_440000.csv脚本运行时间：10秒
+2020-06-05 15:47:51.050 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_1C29000100000100_440000.csv预测脚本调度成功
+2020-06-05 15:47:51.076 [async-service-4] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_002127114501006000_440000.csv解析结果文件成功
+2020-06-05 15:47:51.080 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\350000\scm_nretail_ipw_XC29000100000100_350000.csv -o D:\\Desktop\\office\\result\\350000\scm_nretail_ipw_XC29000100000100_350000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_XC29000100000100_350000.log
+2020-06-05 15:47:51.113 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:51.113 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_XC29000100000100_130000.csv脚本运行时间：10秒
+2020-06-05 15:47:51.116 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_XC29000100000100_130000.csv预测脚本调度成功
+2020-06-05 15:47:51.126 [async-service-2] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_1C29000100000100_440000.csv解析结果文件成功
+2020-06-05 15:47:51.131 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_X01371000301009100_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_X01371000301009100_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_X01371000301009100_440000.log
+2020-06-05 15:47:51.147 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:51.151 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_X01032033600000100_350000.csv脚本运行时间：10秒
+2020-06-05 15:47:51.160 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_X01032033600000100_350000.csv预测脚本调度成功
+2020-06-05 15:47:51.182 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:47:51.182 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_X01371000301009100_350000.csv脚本运行时间：10秒
+2020-06-05 15:47:51.185 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_X01371000301009100_350000.csv预测脚本调度成功
+2020-06-05 15:47:51.190 [async-service-6] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_XC29000100000100_130000.csv解析结果文件成功
+2020-06-05 15:47:51.201 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_X02127096701003000_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_X02127096701003000_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_X02127096701003000_440000.log
+2020-06-05 15:47:51.239 [async-service-1] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_X01032033600000100_350000.csv解析结果文件成功
+2020-06-05 15:47:51.240 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_X02127114501006000_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_X02127114501006000_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_X02127114501006000_440000.log
+2020-06-05 15:47:51.286 [async-service-5] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_X01371000301009100_350000.csv解析结果文件成功
+2020-06-05 15:47:51.288 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:45 - exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\440000\scm_nretail_ipw_XC29000100000100_440000.csv -o D:\\Desktop\\office\\result\\440000\scm_nretail_ipw_XC29000100000100_440000.csv 44 |tee -a /root/cmdc/log/scm_nretail_ipw_XC29000100000100_440000.log
+2020-06-05 15:48:00.998 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:48:00.998 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_X01409001700000100_350000.csv脚本运行时间：10秒
+2020-06-05 15:48:01.009 [async-service-3] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_X01409001700000100_350000.csv预测脚本调度成功
+2020-06-05 15:48:01.060 [async-service-3] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_X01409001700000100_350000.csv解析结果文件成功
+2020-06-05 15:48:01.082 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:48:01.082 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_XC29000100000100_350000.csv脚本运行时间：10秒
+2020-06-05 15:48:01.094 [async-service-4] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_XC29000100000100_350000.csv预测脚本调度成功
+2020-06-05 15:48:01.134 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:48:01.138 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_X01371000301009100_440000.csv脚本运行时间：10秒
+2020-06-05 15:48:01.154 [async-service-2] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_X01371000301009100_440000.csv预测脚本调度成功
+2020-06-05 15:48:01.160 [async-service-4] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_XC29000100000100_350000.csv解析结果文件成功
+2020-06-05 15:48:01.205 [async-service-2] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_X01371000301009100_440000.csv解析结果文件成功
+2020-06-05 15:48:01.213 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:48:01.214 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_X02127096701003000_440000.csv脚本运行时间：10秒
+2020-06-05 15:48:01.216 [async-service-6] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_X02127096701003000_440000.csv预测脚本调度成功
+2020-06-05 15:48:01.245 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:48:01.267 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_X02127114501006000_440000.csv脚本运行时间：10秒
+2020-06-05 15:48:01.275 [async-service-1] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_X02127114501006000_440000.csv预测脚本调度成功
+2020-06-05 15:48:01.292 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:89 - python exit result: true
+2020-06-05 15:48:01.296 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:91 - scm_nretail_ipw_XC29000100000100_440000.csv脚本运行时间：10秒
+2020-06-05 15:48:01.298 [async-service-5] INFO  org.jeecg.modules.util.PythonCommand:97 - scm_nretail_ipw_XC29000100000100_440000.csv预测脚本调度成功
+2020-06-05 15:48:01.312 [async-service-6] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_X02127096701003000_440000.csv解析结果文件成功
+2020-06-05 15:48:01.352 [async-service-5] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_XC29000100000100_440000.csv解析结果文件成功
+2020-06-05 15:48:01.378 [async-service-1] INFO  o.j.m.r.service.impl.ScmNretailResultServiceImpl:129 - scm_nretail_ipw_X02127114501006000_440000.csv解析结果文件成功
+2020-06-05 15:48:01.391 [async-service-3] INFO  o.j.m.job.service.impl.ScmNretailJobServiceImpl:137 - 预测任务成功

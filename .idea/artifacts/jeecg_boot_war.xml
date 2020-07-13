@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jeecg-boot:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jeecg-boot</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jeecg-boot.war">
+      <element id="artifact" artifact-name="jeecg-boot:war exploded" />
+    </root>
+  </artifact>
+</component>

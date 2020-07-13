@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.job.mapper.ScmNretailJobMapper">
+    <insert id="insert" parameterType="org.jeecg.modules.job.entity.ScmNretailJob" >
+        insert into scm_nretail_job (uuid,filename,state,createtime,time) values (#{uuid},#{filename},#{state},#{createtime},#{time})
+    </insert>
+    <update id="update" parameterType="map">
+        update raw.scm_nretail_job set state=#{state} where uuid=#{uuid}
+    </update>
+    <update id="updateTime" parameterType="map">
+        update raw.scm_nretail_job set time=#{time} where uuid=#{uuid}
+    </update>
+    <select id="jobList" resultType="org.jeecg.modules.job.entity.ScmNretailJob">
+        select id,filename,state,createtime,time from scm_nretail_job order by id desc
+    </select>
+
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.stkresult.mapper.ScmNretailIpdStkMapper">
+    <delete id="truncate">
+        TRUNCATE table scm_nretail_ipw
+    </delete>
+    <select id="list" parameterType="org.jeecg.modules.stkresult.entity.ScmNretailIpdStk" resultType="org.jeecg.modules.stkresult.entity.ScmNretailIpdStk">
+        select * from scm_nretail_ipd_stk where 1=1
+        <if test="matnr!=null and matnr!=''">
+            and matnr LIKE concat('%',#{matnr},'%')
+        </if>
+        <if test="prov!=null and prov!=''">
+            and prov=#{prov}
+        </if>
+        <if test="distribution!=null and distribution!=''">
+            and distribution=#{distribution}
+        </if>
+        <if test="outLimit!=null and outLimit!=''">
+            and out_limit=#{outLimit}
+        </if>
+        order by prov, matnr
+    </select>
+
+</mapper>

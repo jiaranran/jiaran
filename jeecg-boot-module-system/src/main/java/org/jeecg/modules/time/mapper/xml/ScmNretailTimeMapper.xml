@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.time.mapper.ScmNretailTimeMapper">
+    <update  id="truncate">
+        TRUNCATE TABLE scm_nretail_time
+    </update >
+
+    <select id="findDsList" parameterType="java.util.HashMap" resultType="java.util.Date">
+        SELECT DISTINCT ds  FROM scm_nretail_time WHERE prov=#{prov} and matnr=#{matnr}
+    </select>
+    <select id="findByMp" resultType="org.jeecg.modules.time.entity.ScmNretailTime">
+        SELECT id,matnr, prov,orderCreateDate ,realSendDate FROM scm_nretail_time where 1=1
+        <if test="uuid!=null and uuid!=''">
+            and prov=#{prov}
+        </if>
+        <if test="state!=null and state!=''">
+            and matnr=#{matnr}
+        </if>
+        ORDER  BY  orderCreateDate
+    </select>
+    <select id="getAll" resultType="org.jeecg.modules.time.entity.ScmNretailTime">
+        SELECT id,matnr, prov,order_create_date ,real_send_date FROM scm_nretail_time ORDER  BY  prov,matnr,order_create_date
+    </select>
+</mapper>

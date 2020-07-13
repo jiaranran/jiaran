@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.job.mapper.ScmNretailJobMapper">
+    <insert id="insert" parameterType="org.jeecg.modules.job.entity.ScmNretailJob" >
+        insert into scm_nretail_job (uuid,filename,state,createtime,jobinfo) values (#{uuid},#{filename},#{state},#{createtime},#{jobinfo})
+    </insert>
+    <update id="update" parameterType="org.jeecg.modules.job.entity.ScmNretailJob">
+        update raw.scm_nretail_job
+        <set>
+            <if test="state != null">state=#{state},</if>
+            <if test="time != null">time=#{time},</if>
+            <if test="jobinfo != null">jobinfo=#{jobinfo},</if>
+            <if test="endtime != null">endtime=#{endtime}</if>
+        </set>
+         where uuid=#{uuid}
+    </update>
+    <update id="updateTime" parameterType="map">
+        update raw.scm_nretail_job set time=#{time} where uuid=#{uuid}
+    </update>
+    <select id="jobList" parameterType="org.jeecg.modules.job.entity.ScmNretailJob" resultType="org.jeecg.modules.job.entity.ScmNretailJob">
+        select id,filename,state,jobinfo,createtime,endtime from scm_nretail_job where 1=1
+        <if test="uuid!=null and uuid!=''">
+            and uuid=#{uuid}
+        </if>
+        <if test="state!=null and state!=''">
+            and state=#{state}
+        </if>
+        <if test="filename!=null and filename!=''">
+            and filename like  concat('%',#{filename},'%')
+        </if>
+         order by id desc
+    </select>
+
+</mapper>

@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "spring.data.mongodb.predict",
+      "type": "org.jeecg.config.mongodb.PredictMongoConfig",
+      "sourceType": "org.jeecg.config.mongodb.PredictMongoConfig"
+    },
+    {
+      "name": "spring.data.mongodb.primary",
+      "type": "org.jeecg.config.mongodb.PrimaryMongoConfig",
+      "sourceType": "org.jeecg.config.mongodb.PrimaryMongoConfig"
+    },
+    {
+      "name": "spring.data.mongodb.secondary",
+      "type": "org.jeecg.config.mongodb.SecondaryMongoConfig",
+      "sourceType": "org.jeecg.config.mongodb.SecondaryMongoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.data.mongodb.predict.uri",
+      "type": "java.lang.String",
+      "sourceType": "org.jeecg.config.mongodb.PredictMongoConfig"
+    },
+    {
+      "name": "spring.data.mongodb.primary.uri",
+      "type": "java.lang.String",
+      "sourceType": "org.jeecg.config.mongodb.PrimaryMongoConfig"
+    },
+    {
+      "name": "spring.data.mongodb.secondary.uri",
+      "type": "java.lang.String",
+      "sourceType": "org.jeecg.config.mongodb.SecondaryMongoConfig"
+    }
+  ],
+  "hints": []
+}

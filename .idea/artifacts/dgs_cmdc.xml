@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="dgs-cmdc">
+    <output-path>$PROJECT_DIR$/classes/artifacts/dgs_cmdc</output-path>
+    <root id="archive" name="dgs-cmdc.war">
+      <element id="artifact" artifact-name="jeecg-boot:war exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jeecg-boot-base-common" />
+          <element id="module-output" name="jeecg-boot-module-system" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

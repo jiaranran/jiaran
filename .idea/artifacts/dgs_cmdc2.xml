@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dgs-cmdc2">
+    <output-path>$PROJECT_DIR$/classes/artifacts/dgs-cmdc</output-path>
+    <root id="archive" name="dgs-cmdc2.war">
+      <element id="artifact" artifact-name="jeecg-boot-base-common:war exploded2" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.16" />
+        </element>
+      </element>
+      <element id="directory" name="classes">
+        <element id="module-output" name="jeecg-boot-base-common" />
+        <element id="module-output" name="jeecg-boot-module-system" />
+      </element>
+    </root>
+  </artifact>
+</component>

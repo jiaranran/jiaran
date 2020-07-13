@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.stkjob.mapper.ScmNretailJobStkMapper">
+    <insert id="insert" parameterType="org.jeecg.modules.stkjob.entity.ScmNretailJobStk" >
+        insert into scm_nretail_job_stk (uuid,cnt_filename,time_filename,state,createtime,jobinfo) values (#{uuid},#{cntFilename},#{timeFilename},#{state},#{createtime},#{jobinfo})
+    </insert>
+    <update id="update" parameterType="org.jeecg.modules.stkjob.entity.ScmNretailJobStk">
+        update raw.scm_nretail_job_stk
+        <set>
+            <if test="state != null">state=#{state},</if>
+            <if test="jobinfo != null">jobinfo=#{jobinfo},</if>
+            <if test="endtime != null">endtime=#{endtime}</if>
+        </set>
+        where uuid=#{uuid}
+    </update>
+    <update id="updateTime" parameterType="map">
+        update raw.scm_nretail_job_stk set time=#{time} where uuid=#{uuid}
+    </update>
+    <select id="jobList" parameterType="org.jeecg.modules.stkjob.entity.ScmNretailJobStk" resultType="org.jeecg.modules.stkjob.entity.ScmNretailJobStk">
+        select id,cnt_filename,time_filename,state,jobinfo,createtime,endtime from scm_nretail_job_stk where 1=1
+        <if test="uuid!=null and uuid!=''">
+            and uuid=#{uuid}
+        </if>
+        <if test="state!=null and state!=''">
+            and state=#{state}
+        </if>
+        <if test="cntFilename!=null and cntFilename!=''">
+            and cnt_filename like  concat('%',#{cntFilename},'%')
+        </if>
+        <if test="timeFilename!=null and timeFilename!=''">
+            and time_filename like  concat('%',#{timeFilename},'%')
+        </if>
+        order by id desc
+    </select>
+</mapper>

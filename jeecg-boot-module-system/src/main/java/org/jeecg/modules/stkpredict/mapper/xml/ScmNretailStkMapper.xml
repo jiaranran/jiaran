@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.stkpredict.mapper.ScmNretailStkMapper">
+    <update  id="truncate">
+        TRUNCATE TABLE scm_nretail_stk
+    </update >
+    <select id="getDs" resultType="org.jeecg.modules.predict.vo.ScmNretailDsVo" >
+        SELECT prov,matnr,max(ds) maxDs ,min(ds) minDs FROM scm_nretail_stk GROUP BY prov, matnr
+    </select>
+    <select id="findDsList" parameterType="java.util.HashMap" resultType="java.util.Date">
+        SELECT DISTINCT ds  FROM scm_nretail_stk WHERE prov=#{prov} and matnr=#{matnr}
+    </select>
+    <select id="countByGpw" resultType="org.jeecg.modules.stkpredict.entity.ScmNretailIpd">
+        select prov, ds, matnr,SUM(cnt) cnt from scm_nretail_stk group by ds,prov,matnr order by prov, matnr,ds
+    </select>
+</mapper>

@@ -1,0 +1,1000 @@
+2020-05-21 16:52:08.898 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 8728 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 16:52:08.904 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 16:52:16.128 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 16:52:17.761 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 16:52:17.766 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 16:52:18.097 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 316ms. Found 0 repository interfaces.
+2020-05-21 16:52:18.164 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 16:52:18.178 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 16:52:18.819 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 349ms. Found 0 repository interfaces.
+2020-05-21 16:52:20.673 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$979e0264] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:21.118 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:32.531 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:32.921 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:33.199 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$779898ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:35.045 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:35.075 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e127099f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:35.125 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:35.213 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:35.719 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:35.814 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$8cb25718] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:36.879 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:37.667 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:37.800 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$e26c89ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:38.350 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$8ab1767e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:38.464 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:52:39.810 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 16:52:40.833 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 16:52:40.900 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 16:52:40.968 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 16:52:40.969 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 16:52:40.970 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 16:52:40.971 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 16:52:40.973 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 16:52:40.974 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 16:52:43.893 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 16:52:44.131 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 16:52:44.229 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 16:52:53.433 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:52:53.583 [cluster-ClusterId{value='5ec6416537d16122185c16e1', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:62}] to localhost:27017
+2020-05-21 16:52:53.605 [cluster-ClusterId{value='5ec6416537d16122185c16e1', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13618600}
+2020-05-21 16:52:56.979 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:52:57.079 [cluster-ClusterId{value='5ec6416837d16122185c16e2', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:63}] to localhost:27017
+2020-05-21 16:52:57.082 [cluster-ClusterId{value='5ec6416837d16122185c16e2', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1290000}
+2020-05-21 16:52:57.322 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:52:57.415 [cluster-ClusterId{value='5ec6416937d16122185c16e3', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:64}] to localhost:27017
+2020-05-21 16:52:57.417 [cluster-ClusterId{value='5ec6416937d16122185c16e3', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=919800}
+2020-05-21 16:52:58.138 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 16:52:58.191 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 16:52:58.193 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 16:52:58.215 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 16:52:58.223 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 16:52:58.227 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 16:52:58.228 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 16:52:58.230 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 16:52:58.230 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1eda853f
+2020-05-21 16:53:07.360 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 16:53:08.595 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 16:53:08.881 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 16:53:08.889 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 16:53:08.939 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 16:53:14.931 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:53:15.040 [cluster-ClusterId{value='5ec6417a37d16122185c16e4', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:65}] to localhost:27017
+2020-05-21 16:53:15.042 [cluster-ClusterId{value='5ec6417a37d16122185c16e4', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1111400}
+2020-05-21 16:53:18.267 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 16:53:18.368 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 16:53:18.546 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 16:53:19.443 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 16:53:19.449 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 16:53:19.453 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 16:53:19.466 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 16:53:19.512 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 16:53:20.080 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 16:53:20.100 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 16:53:20.101 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 16:53:20.103 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 16:53:20.110 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 16:53:20.112 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 16:53:20.150 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 75.973 seconds (JVM running for 80.555)
+2020-05-21 16:53:20.812 [main] INFO  org.jeecg.modules.test.ThreadTestCase:54 - ================= run_task_two_plus =======================
+2020-05-21 16:53:20.814 [main] INFO  org.jeecg.modules.test.ThreadTestCase:56 - 开始请求任务2
+2020-05-21 16:53:20.824 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 16:53:20.837 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:53:25.839 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:53:25.846 [main] INFO  org.jeecg.modules.test.ThreadTestCase:61 - 0完成请求任务2，返回结果：12345， 耗时：5.030 s
+2020-05-21 16:53:25.847 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [1], activeCount [0], queueSize [0]
+2020-05-21 16:53:25.849 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:53:30.850 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:53:30.897 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 16:53:30.909 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 16:53:30.926 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 16:53:30.930 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 16:53:30.931 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 16:53:30.934 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 16:53:30.945 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 16:53:30.973 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 16:53:30.982 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 16:53:30.994 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed
+2020-05-21 16:54:58.496 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 17160 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 16:54:58.501 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 16:55:04.480 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 16:55:06.104 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 16:55:06.110 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 16:55:06.406 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 278ms. Found 0 repository interfaces.
+2020-05-21 16:55:06.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 16:55:06.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 16:55:06.673 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 201ms. Found 0 repository interfaces.
+2020-05-21 16:55:09.269 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$3a893b90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:09.812 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:16.726 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:16.907 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:17.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a83d1fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:17.864 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:17.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$841242cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:17.919 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:17.947 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:18.043 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:18.080 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$2f9d9044] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:18.741 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:19.144 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:19.189 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$8557c2da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:19.412 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$2d9cafaa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:19.439 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 16:55:20.371 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 16:55:21.360 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 16:55:21.417 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 16:55:21.484 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 16:55:21.485 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 16:55:21.486 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 16:55:21.487 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 16:55:21.488 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 16:55:21.489 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 16:55:23.215 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 16:55:23.480 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 16:55:23.564 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 16:55:31.572 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:55:31.691 [cluster-ClusterId{value='5ec6420337d161430876f696', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:66}] to localhost:27017
+2020-05-21 16:55:31.705 [cluster-ClusterId{value='5ec6420337d161430876f696', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10812600}
+2020-05-21 16:55:34.297 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:55:34.461 [cluster-ClusterId{value='5ec6420637d161430876f697', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:67}] to localhost:27017
+2020-05-21 16:55:34.464 [cluster-ClusterId{value='5ec6420637d161430876f697', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1618700}
+2020-05-21 16:55:34.685 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:55:34.788 [cluster-ClusterId{value='5ec6420637d161430876f698', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:68}] to localhost:27017
+2020-05-21 16:55:34.790 [cluster-ClusterId{value='5ec6420637d161430876f698', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1057900}
+2020-05-21 16:55:35.522 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 16:55:35.570 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 16:55:35.571 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 16:55:35.582 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 16:55:35.592 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 16:55:35.595 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 16:55:35.597 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 16:55:35.598 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 16:55:35.599 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4c7b4a31
+2020-05-21 16:55:43.706 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 16:55:44.780 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 16:55:45.060 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 16:55:45.071 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 16:55:45.100 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 16:55:49.274 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 16:55:49.463 [cluster-ClusterId{value='5ec6421537d161430876f699', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:69}] to localhost:27017
+2020-05-21 16:55:49.466 [cluster-ClusterId{value='5ec6421537d161430876f699', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1227500}
+2020-05-21 16:55:52.451 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 16:55:52.527 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 16:55:52.660 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 16:55:53.278 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 16:55:53.284 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 16:55:53.290 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 16:55:53.302 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 16:55:53.348 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 16:55:53.750 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 16:55:53.766 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 16:55:53.766 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 16:55:53.769 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 16:55:53.772 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 16:55:53.774 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 16:55:53.819 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 57.411 seconds (JVM running for 61.272)
+2020-05-21 16:55:54.323 [main] INFO  org.jeecg.modules.test.ThreadTestCase:54 - ================= run_task_two_plus =======================
+2020-05-21 16:55:54.324 [main] INFO  org.jeecg.modules.test.ThreadTestCase:56 - 开始请求任务2
+2020-05-21 16:55:54.331 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 16:55:54.334 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:55:59.336 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:55:59.341 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 0完成请求任务2，返回结果：12345， 耗时：5.016 s
+2020-05-21 16:55:59.342 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [1], activeCount [0], queueSize [0]
+2020-05-21 16:55:59.344 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:04.346 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:56:04.346 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 1完成请求任务2，返回结果：12345， 耗时：5.004 s
+2020-05-21 16:56:04.347 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [2], completedTaskCount [2], activeCount [0], queueSize [0]
+2020-05-21 16:56:04.348 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:09.350 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:56:09.351 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 2完成请求任务2，返回结果：12345， 耗时：5.004 s
+2020-05-21 16:56:09.352 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [3], completedTaskCount [3], activeCount [0], queueSize [0]
+2020-05-21 16:56:09.354 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:14.354 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:56:14.355 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 3完成请求任务2，返回结果：12345， 耗时：5.003 s
+2020-05-21 16:56:14.355 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [4], completedTaskCount [4], activeCount [0], queueSize [0]
+2020-05-21 16:56:14.356 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:19.358 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:56:19.359 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 4完成请求任务2，返回结果：12345， 耗时：5.003 s
+2020-05-21 16:56:19.359 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [5], completedTaskCount [5], activeCount [0], queueSize [0]
+2020-05-21 16:56:19.360 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:24.362 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.001 s
+2020-05-21 16:56:24.363 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 5完成请求任务2，返回结果：12345， 耗时：5.003 s
+2020-05-21 16:56:24.363 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [6], completedTaskCount [6], activeCount [0], queueSize [0]
+2020-05-21 16:56:24.364 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:29.365 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.001 s
+2020-05-21 16:56:29.366 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 6完成请求任务2，返回结果：12345， 耗时：5.003 s
+2020-05-21 16:56:29.367 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [7], completedTaskCount [7], activeCount [0], queueSize [0]
+2020-05-21 16:56:29.368 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:34.369 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:56:34.369 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 7完成请求任务2，返回结果：12345， 耗时：5.002 s
+2020-05-21 16:56:34.370 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [8], completedTaskCount [8], activeCount [0], queueSize [0]
+2020-05-21 16:56:34.371 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:39.371 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.000 s
+2020-05-21 16:56:39.372 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 8完成请求任务2，返回结果：12345， 耗时：5.002 s
+2020-05-21 16:56:39.373 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [9], completedTaskCount [9], activeCount [0], queueSize [0]
+2020-05-21 16:56:39.373 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 16:56:44.375 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 完成任务2， 耗时：5.001 s
+2020-05-21 16:56:44.376 [main] INFO  org.jeecg.modules.test.ThreadTestCase:62 - 9完成请求任务2，返回结果：12345， 耗时：5.004 s
+2020-05-21 16:56:44.400 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 16:56:44.414 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 16:56:44.424 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 16:56:44.425 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 16:56:44.425 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 16:56:44.427 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 16:56:44.433 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 16:56:44.450 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 16:56:44.458 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 16:56:44.465 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed
+2020-05-21 17:24:48.616 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 17900 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 17:24:48.621 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 17:24:55.895 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 17:24:57.258 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 17:24:57.266 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 17:24:57.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 233ms. Found 0 repository interfaces.
+2020-05-21 17:24:57.540 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 17:24:57.547 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 17:24:57.772 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 206ms. Found 0 repository interfaces.
+2020-05-21 17:24:59.674 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$bcb6acb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:00.119 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:05.429 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:05.696 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:05.839 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cb1431e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:06.733 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:06.793 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$63fb3ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:06.844 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:06.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:06.984 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:07.031 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$b1cb0168] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:07.752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:08.172 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:08.215 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$78533fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:08.457 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$afca20ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:08.485 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:25:09.516 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 17:25:10.530 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 17:25:10.581 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 17:25:10.644 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 17:25:10.645 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 17:25:10.646 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 17:25:10.648 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 17:25:10.649 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 17:25:10.650 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 17:25:12.436 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 17:25:12.604 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 17:25:12.685 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 17:25:20.981 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:25:21.181 [cluster-ClusterId{value='5ec6490037d16145ec48aa28', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:70}] to localhost:27017
+2020-05-21 17:25:21.303 [cluster-ClusterId{value='5ec6490037d16145ec48aa28', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=87064500}
+2020-05-21 17:25:23.927 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:25:24.094 [cluster-ClusterId{value='5ec6490337d16145ec48aa29', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:71}] to localhost:27017
+2020-05-21 17:25:24.097 [cluster-ClusterId{value='5ec6490337d16145ec48aa29', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1259700}
+2020-05-21 17:25:24.404 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:25:24.558 [cluster-ClusterId{value='5ec6490437d16145ec48aa2a', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:72}] to localhost:27017
+2020-05-21 17:25:24.559 [cluster-ClusterId{value='5ec6490437d16145ec48aa2a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1036700}
+2020-05-21 17:25:25.773 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 17:25:25.849 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 17:25:25.852 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 17:25:25.869 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 17:25:25.875 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 17:25:25.879 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 17:25:25.905 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 17:25:25.906 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 17:25:25.908 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5afaae7e
+2020-05-21 17:25:37.012 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 17:25:38.320 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 17:25:38.541 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 17:25:38.575 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 17:25:38.617 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 17:25:42.529 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:25:42.616 [cluster-ClusterId{value='5ec6491637d16145ec48aa2b', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:73}] to localhost:27017
+2020-05-21 17:25:42.618 [cluster-ClusterId{value='5ec6491637d16145ec48aa2b', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1655200}
+2020-05-21 17:25:45.629 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 17:25:45.703 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 17:25:45.821 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 17:25:46.388 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 17:25:46.392 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 17:25:46.397 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 17:25:46.408 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 17:25:46.450 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 17:25:46.875 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 17:25:46.892 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 17:25:46.893 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 17:25:46.895 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 17:25:46.898 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 17:25:46.900 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 17:25:46.939 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 60.81 seconds (JVM running for 64.374)
+2020-05-21 17:25:47.384 [main] INFO  org.jeecg.modules.test.ThreadTestCase:54 - ================= run_task_two_plus =======================
+2020-05-21 17:25:47.385 [main] INFO  org.jeecg.modules.test.ThreadTestCase:56 - 开始请求任务2
+2020-05-21 17:25:47.391 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 17:25:47.393 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务0
+2020-05-21 17:25:57.419 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 17:25:57.429 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 17:25:57.441 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 17:25:57.443 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 17:25:57.443 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 17:25:57.445 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 17:25:57.451 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 17:25:57.466 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 17:25:57.473 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 17:25:57.480 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed
+2020-05-21 17:37:19.863 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 24760 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 17:37:19.869 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 17:37:24.577 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 17:37:26.029 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 17:37:26.036 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 17:37:26.528 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 456ms. Found 0 repository interfaces.
+2020-05-21 17:37:26.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 17:37:26.613 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 17:37:27.094 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 199ms. Found 0 repository interfaces.
+2020-05-21 17:37:29.090 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$a3dea5f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:29.623 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:37.091 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:37.317 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:37.480 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$83d93c61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:38.271 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:38.309 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ed67ad32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:38.351 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:38.385 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:38.466 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:38.519 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$98f2faab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:39.193 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:39.650 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:39.747 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$eead2d41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:40.001 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$96f21a11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:40.040 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:37:40.794 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 17:37:41.814 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 17:37:41.870 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 17:37:41.928 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 17:37:41.929 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 17:37:41.930 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 17:37:41.931 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 17:37:41.933 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 17:37:41.933 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 17:37:43.832 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 17:37:44.002 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 17:37:44.096 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 17:37:52.749 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:37:52.884 [cluster-ClusterId{value='5ec64bf037d16160b8185aba', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:74}] to localhost:27017
+2020-05-21 17:37:52.903 [cluster-ClusterId{value='5ec64bf037d16160b8185aba', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10402200}
+2020-05-21 17:37:55.571 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:37:55.681 [cluster-ClusterId{value='5ec64bf337d16160b8185abb', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:75}] to localhost:27017
+2020-05-21 17:37:55.684 [cluster-ClusterId{value='5ec64bf337d16160b8185abb', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1343300}
+2020-05-21 17:37:55.819 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:37:55.944 [cluster-ClusterId{value='5ec64bf337d16160b8185abc', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:76}] to localhost:27017
+2020-05-21 17:37:55.946 [cluster-ClusterId{value='5ec64bf337d16160b8185abc', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1271600}
+2020-05-21 17:37:56.618 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 17:37:56.662 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 17:37:56.663 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 17:37:56.676 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 17:37:56.688 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 17:37:56.691 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 17:37:56.692 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 17:37:56.693 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 17:37:56.694 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4865434e
+2020-05-21 17:38:05.255 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 17:38:06.399 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 17:38:06.656 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 17:38:06.669 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 17:38:06.700 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 17:38:11.523 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:38:11.585 [cluster-ClusterId{value='5ec64c0337d16160b8185abd', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:77}] to localhost:27017
+2020-05-21 17:38:11.587 [cluster-ClusterId{value='5ec64c0337d16160b8185abd', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=852600}
+2020-05-21 17:38:14.575 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 17:38:14.664 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 17:38:14.791 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 17:38:15.541 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 17:38:15.546 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 17:38:15.552 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 17:38:15.564 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 17:38:15.664 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 17:38:16.295 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 17:38:16.313 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 17:38:16.314 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 17:38:16.317 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 17:38:16.321 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 17:38:16.324 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 17:38:16.381 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 58.683 seconds (JVM running for 62.512)
+2020-05-21 17:38:17.015 [main] INFO  org.jeecg.modules.test.ThreadTestCase:57 - ================= run_task_two_plus =======================
+2020-05-21 17:38:17.015 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - 开始请求任务2
+2020-05-21 17:38:17.023 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 17:38:17.024 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]
+2020-05-21 17:38:17.025 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]
+2020-05-21 17:38:17.026 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]
+2020-05-21 17:38:17.028 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]
+2020-05-21 17:38:17.030 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]
+2020-05-21 17:38:17.026 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务0
+2020-05-21 17:38:17.031 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]
+2020-05-21 17:38:17.032 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务1
+2020-05-21 17:38:17.032 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]
+2020-05-21 17:38:17.033 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]
+2020-05-21 17:38:17.033 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]
+2020-05-21 17:38:17.034 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 17:38:17.035 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务3
+2020-05-21 17:38:17.036 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务4
+2020-05-21 17:38:27.078 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 17:38:27.091 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 17:38:27.106 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 17:38:27.110 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 17:38:27.111 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 17:38:27.117 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 17:38:27.126 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 17:38:27.139 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 17:38:27.143 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 17:38:27.149 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed
+2020-05-21 17:40:31.151 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 3260 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 17:40:31.157 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 17:40:36.085 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 17:40:37.323 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 17:40:37.329 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 17:40:37.740 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 398ms. Found 0 repository interfaces.
+2020-05-21 17:40:37.781 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 17:40:37.785 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 17:40:38.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 274ms. Found 0 repository interfaces.
+2020-05-21 17:40:40.226 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$6bcbb751] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:40.799 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:48.414 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:48.687 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:48.844 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4bc64dbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:49.614 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:49.630 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b554be8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:49.676 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:49.711 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:49.808 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:49.859 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$60e00c05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:50.848 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:51.309 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:51.360 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$b69a3e9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:51.665 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$5edf2b6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:51.718 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 17:40:52.686 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 17:40:53.677 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 17:40:53.736 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 17:40:53.861 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 17:40:53.862 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 17:40:53.863 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 17:40:53.864 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 17:40:53.865 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 17:40:53.866 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 17:40:56.034 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 17:40:56.316 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 17:40:56.406 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 17:41:05.487 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:41:05.672 [cluster-ClusterId{value='5ec64cb137d1610cbcffed02', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:78}] to localhost:27017
+2020-05-21 17:41:05.681 [cluster-ClusterId{value='5ec64cb137d1610cbcffed02', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6275000}
+2020-05-21 17:41:08.487 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:41:08.659 [cluster-ClusterId{value='5ec64cb437d1610cbcffed03', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:79}] to localhost:27017
+2020-05-21 17:41:08.661 [cluster-ClusterId{value='5ec64cb437d1610cbcffed03', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1380400}
+2020-05-21 17:41:08.802 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:41:08.896 [cluster-ClusterId{value='5ec64cb437d1610cbcffed04', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:80}] to localhost:27017
+2020-05-21 17:41:08.898 [cluster-ClusterId{value='5ec64cb437d1610cbcffed04', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1298500}
+2020-05-21 17:41:09.765 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 17:41:09.814 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 17:41:09.816 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 17:41:09.832 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 17:41:09.841 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 17:41:09.844 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 17:41:09.846 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 17:41:09.848 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 17:41:09.849 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@52518ee1
+2020-05-21 17:41:17.692 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 17:41:18.709 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 17:41:18.963 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 17:41:18.974 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 17:41:19.008 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 17:41:23.694 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 17:41:23.878 [cluster-ClusterId{value='5ec64cc337d1610cbcffed05', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:81}] to localhost:27017
+2020-05-21 17:41:23.880 [cluster-ClusterId{value='5ec64cc337d1610cbcffed05', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1018100}
+2020-05-21 17:41:27.147 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 17:41:27.249 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 17:41:27.521 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 17:41:28.346 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 17:41:28.350 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 17:41:28.356 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 17:41:28.370 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 17:41:28.417 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 17:41:28.796 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 17:41:28.816 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 17:41:28.816 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 17:41:28.821 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 17:41:28.824 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 17:41:28.826 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 17:41:28.898 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 59.751 seconds (JVM running for 63.428)
+2020-05-21 17:41:29.472 [main] INFO  org.jeecg.modules.test.ThreadTestCase:57 - ================= run_task_two_plus =======================
+2020-05-21 17:41:29.473 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - 开始请求任务2
+2020-05-21 17:41:29.481 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 17:41:29.482 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]
+2020-05-21 17:41:29.483 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]
+2020-05-21 17:41:29.484 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]
+2020-05-21 17:41:29.487 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]
+2020-05-21 17:41:29.488 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]
+2020-05-21 17:41:29.489 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]
+2020-05-21 17:41:29.490 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]
+2020-05-21 17:41:29.491 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]
+2020-05-21 17:41:29.492 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]
+2020-05-21 17:41:29.505 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务0
+2020-05-21 17:41:29.509 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务1
+2020-05-21 17:41:29.510 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 17:41:29.511 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务3
+2020-05-21 17:41:29.511 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务4
+2020-05-21 17:42:19.510 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 1完成任务， 耗时：50.00 s
+2020-05-21 17:42:19.507 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 0完成任务， 耗时：50.00 s
+2020-05-21 17:42:19.514 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务5
+2020-05-21 17:42:19.515 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：0， 耗时：50.02 s
+2020-05-21 17:42:19.516 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：1， 耗时：2.900 μs
+2020-05-21 17:42:19.515 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 2完成任务， 耗时：50.00 s
+2020-05-21 17:42:19.518 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：2， 耗时：911.0 μs
+2020-05-21 17:42:19.518 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务6
+2020-05-21 17:42:19.521 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务7
+2020-05-21 17:42:19.522 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 3完成任务， 耗时：50.01 s
+2020-05-21 17:42:19.522 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 4完成任务， 耗时：50.01 s
+2020-05-21 17:42:19.523 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务8
+2020-05-21 17:42:19.523 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：3， 耗时：4.175 ms
+2020-05-21 17:42:19.524 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：4， 耗时：2.900 μs
+2020-05-21 17:42:19.524 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务9
+2020-05-21 17:43:09.515 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 5完成任务， 耗时：50.00 s
+2020-05-21 17:43:09.515 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：5， 耗时：49.99 s
+2020-05-21 17:43:09.521 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 6完成任务， 耗时：50.00 s
+2020-05-21 17:43:09.521 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：6， 耗时：5.006 ms
+2020-05-21 17:43:09.522 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 7完成任务， 耗时：50.00 s
+2020-05-21 17:43:09.522 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：7， 耗时：463.9 μs
+2020-05-21 17:43:09.524 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 8完成任务， 耗时：50.00 s
+2020-05-21 17:43:09.524 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：8， 耗时：1.759 ms
+2020-05-21 17:43:09.525 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 9完成任务， 耗时：50.00 s
+2020-05-21 17:43:09.525 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：9， 耗时：480.8 μs
+2020-05-21 17:43:09.547 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 17:43:09.556 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 17:43:09.578 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 17:43:09.578 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 17:43:09.579 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 17:43:09.582 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 17:43:09.591 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 17:43:09.610 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 17:43:09.617 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 17:43:09.624 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed
+2020-05-21 18:06:05.272 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 26176 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 18:06:05.276 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 18:06:11.169 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 18:06:12.318 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 18:06:12.332 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 18:06:12.588 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 240ms. Found 0 repository interfaces.
+2020-05-21 18:06:12.616 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 18:06:12.656 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 18:06:12.833 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 155ms. Found 0 repository interfaces.
+2020-05-21 18:06:14.792 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$857def92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:15.364 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:20.713 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:20.997 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:21.164 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$657885fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:22.083 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:22.109 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$cf06f6cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:22.156 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:22.178 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:22.266 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:22.315 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$7a924446] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:22.980 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:23.381 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:23.430 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$d04c76dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:23.662 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$789163ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:23.685 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:06:24.541 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 18:06:25.373 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 18:06:25.424 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 18:06:25.483 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 18:06:25.484 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 18:06:25.485 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 18:06:25.486 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 18:06:25.487 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 18:06:25.488 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 18:06:27.505 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 18:06:27.686 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 18:06:27.772 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 18:06:35.765 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:06:35.915 [cluster-ClusterId{value='5ec652ab37d16166401b18b9', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:82}] to localhost:27017
+2020-05-21 18:06:35.943 [cluster-ClusterId{value='5ec652ab37d16166401b18b9', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13534700}
+2020-05-21 18:06:39.015 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:06:39.134 [cluster-ClusterId{value='5ec652af37d16166401b18ba', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:83}] to localhost:27017
+2020-05-21 18:06:39.137 [cluster-ClusterId{value='5ec652af37d16166401b18ba', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1453900}
+2020-05-21 18:06:39.280 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:06:39.347 [cluster-ClusterId{value='5ec652af37d16166401b18bb', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:84}] to localhost:27017
+2020-05-21 18:06:39.349 [cluster-ClusterId{value='5ec652af37d16166401b18bb', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=958700}
+2020-05-21 18:06:40.110 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 18:06:40.155 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 18:06:40.158 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 18:06:40.175 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 18:06:40.184 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 18:06:40.187 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 18:06:40.188 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 18:06:40.189 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 18:06:40.191 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4865434e
+2020-05-21 18:06:48.096 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 18:06:49.031 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 18:06:49.243 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 18:06:49.255 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 18:06:49.289 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 18:06:53.322 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:06:53.462 [cluster-ClusterId{value='5ec652bd37d16166401b18bc', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:85}] to localhost:27017
+2020-05-21 18:06:53.464 [cluster-ClusterId{value='5ec652bd37d16166401b18bc', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=841400}
+2020-05-21 18:06:56.846 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 18:06:56.926 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 18:06:57.089 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 18:06:57.929 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 18:06:57.935 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 18:06:57.975 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 18:06:57.985 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 18:06:58.040 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 18:06:58.419 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 18:06:58.434 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 18:06:58.435 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 18:06:58.437 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 18:06:58.440 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 18:06:58.443 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 18:06:58.479 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 55.891 seconds (JVM running for 59.689)
+2020-05-21 18:06:59.078 [main] INFO  org.jeecg.modules.test.ThreadTestCase:57 - ================= run_task_two_plus =======================
+2020-05-21 18:06:59.079 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - 开始请求任务2
+2020-05-21 18:06:59.091 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 18:06:59.093 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]
+2020-05-21 18:06:59.094 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]
+2020-05-21 18:06:59.096 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]
+2020-05-21 18:06:59.097 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]
+2020-05-21 18:06:59.098 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]
+2020-05-21 18:06:59.100 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]
+2020-05-21 18:06:59.101 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]
+2020-05-21 18:06:59.102 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]
+2020-05-21 18:06:59.103 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]
+2020-05-21 18:06:59.113 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务0
+2020-05-21 18:06:59.115 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务1
+2020-05-21 18:06:59.116 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 18:06:59.118 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务3
+2020-05-21 18:06:59.120 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务4
+2020-05-21 18:07:49.116 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 1完成任务， 耗时：50.00 s
+2020-05-21 18:07:49.114 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 0完成任务， 耗时：50.00 s
+2020-05-21 18:07:49.117 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 2完成任务， 耗时：50.00 s
+2020-05-21 18:07:49.119 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务5
+2020-05-21 18:07:49.119 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务7
+2020-05-21 18:07:49.119 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务6
+2020-05-21 18:07:49.119 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：0， 耗时：50.02 s
+2020-05-21 18:07:49.119 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 3完成任务， 耗时：50.00 s
+2020-05-21 18:07:49.120 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：1， 耗时：2.400 μs
+2020-05-21 18:07:49.120 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：2， 耗时：2.500 μs
+2020-05-21 18:07:49.120 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务8
+2020-05-21 18:07:49.121 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：3， 耗时：2.500 μs
+2020-05-21 18:07:49.121 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 4完成任务， 耗时：50.00 s
+2020-05-21 18:07:49.122 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：4， 耗时：125.3 μs
+2020-05-21 18:07:49.122 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务9
+2020-05-21 18:08:39.119 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 5完成任务， 耗时：50.00 s
+2020-05-21 18:08:39.120 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 6完成任务， 耗时：50.00 s
+2020-05-21 18:08:39.120 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：5， 耗时：50.00 s
+2020-05-21 18:08:39.120 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 7完成任务， 耗时：50.00 s
+2020-05-21 18:08:39.121 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：6， 耗时：3.300 μs
+2020-05-21 18:08:39.121 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 8完成任务， 耗时：50.00 s
+2020-05-21 18:08:39.121 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：7， 耗时：2.200 μs
+2020-05-21 18:08:39.122 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 9完成任务， 耗时：50.00 s
+2020-05-21 18:08:39.122 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：8， 耗时：1.900 μs
+2020-05-21 18:08:39.122 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：9， 耗时：1.900 μs
+2020-05-21 18:08:39.145 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 18:08:39.158 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 18:08:39.173 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 18:08:39.174 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 18:08:39.174 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 18:08:39.176 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 18:08:39.184 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 18:08:39.227 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 18:08:39.245 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 18:08:39.256 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed
+2020-05-21 18:09:48.158 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 21916 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 18:09:48.183 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 18:09:55.227 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 18:09:56.374 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 18:09:56.380 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 18:09:56.686 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 290ms. Found 0 repository interfaces.
+2020-05-21 18:09:56.715 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 18:09:56.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 18:09:56.907 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 152ms. Found 0 repository interfaces.
+2020-05-21 18:09:58.894 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$3ab0b441] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:09:59.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:04.617 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:04.997 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:05.236 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1aab4aab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:06.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:06.179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8439bb7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:06.261 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:06.298 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:06.416 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:06.476 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$2fc508f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:07.216 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:07.649 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:07.699 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$857f3b8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:07.987 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$2dc4285b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:08.017 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:10:08.745 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 18:10:09.687 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 18:10:09.738 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 18:10:09.796 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 18:10:09.797 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 18:10:09.798 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 18:10:09.798 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 18:10:09.799 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 18:10:09.800 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 18:10:11.873 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 18:10:12.090 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 18:10:12.168 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 18:10:20.200 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:10:20.390 [cluster-ClusterId{value='5ec6538c37d161559c366f55', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:86}] to localhost:27017
+2020-05-21 18:10:20.485 [cluster-ClusterId{value='5ec6538c37d161559c366f55', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=53358900}
+2020-05-21 18:10:23.400 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:10:23.474 [cluster-ClusterId{value='5ec6538f37d161559c366f56', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:87}] to localhost:27017
+2020-05-21 18:10:23.477 [cluster-ClusterId{value='5ec6538f37d161559c366f56', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2085200}
+2020-05-21 18:10:23.736 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:10:23.866 [cluster-ClusterId{value='5ec6538f37d161559c366f57', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:88}] to localhost:27017
+2020-05-21 18:10:23.872 [cluster-ClusterId{value='5ec6538f37d161559c366f57', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5311000}
+2020-05-21 18:10:24.854 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 18:10:24.938 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 18:10:24.942 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 18:10:24.960 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 18:10:24.969 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 18:10:24.973 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 18:10:24.976 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 18:10:24.977 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 18:10:24.977 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@c10f7a8
+2020-05-21 18:10:32.612 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 18:10:33.455 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 18:10:33.650 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 18:10:33.701 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 18:10:33.737 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 18:10:38.386 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:10:38.437 [cluster-ClusterId{value='5ec6539e37d161559c366f58', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:89}] to localhost:27017
+2020-05-21 18:10:38.439 [cluster-ClusterId{value='5ec6539e37d161559c366f58', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=830900}
+2020-05-21 18:10:41.299 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 18:10:41.377 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 18:10:41.532 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 18:10:42.384 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 18:10:42.389 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 18:10:42.395 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 18:10:42.404 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 18:10:42.455 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 18:10:42.877 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 18:10:42.893 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 18:10:42.893 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 18:10:42.896 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 18:10:42.899 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 18:10:42.901 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 18:10:42.933 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 57.088 seconds (JVM running for 60.746)
+2020-05-21 18:10:43.485 [main] INFO  org.jeecg.modules.test.ThreadTestCase:57 - ================= run_task_two_plus =======================
+2020-05-21 18:10:43.487 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - 开始请求任务2
+2020-05-21 18:10:43.494 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 18:10:43.496 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]
+2020-05-21 18:10:43.503 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]
+2020-05-21 18:10:43.505 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]
+2020-05-21 18:10:43.507 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]
+2020-05-21 18:10:43.508 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]
+2020-05-21 18:10:43.508 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]
+2020-05-21 18:10:43.509 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]
+2020-05-21 18:10:43.510 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]
+2020-05-21 18:10:43.510 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]
+2020-05-21 18:10:43.512 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务0
+2020-05-21 18:10:43.513 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务1
+2020-05-21 18:10:43.514 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务3
+2020-05-21 18:10:43.514 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 18:10:43.517 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务4
+2020-05-21 18:11:33.518 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 2完成任务， 耗时：50.00 s
+2020-05-21 18:11:33.515 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 1完成任务， 耗时：50.00 s
+2020-05-21 18:11:33.518 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 4完成任务， 耗时：50.00 s
+2020-05-21 18:11:33.517 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 3完成任务， 耗时：50.00 s
+2020-05-21 18:11:33.516 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 0完成任务， 耗时：50.00 s
+2020-05-21 18:11:33.521 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务5
+2020-05-21 18:11:33.521 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务6
+2020-05-21 18:11:33.522 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务9
+2020-05-21 18:11:33.522 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务7
+2020-05-21 18:11:33.521 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务8
+2020-05-21 18:11:33.522 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：0， 耗时：50.01 s
+2020-05-21 18:11:33.523 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：1， 耗时：2.900 μs
+2020-05-21 18:11:33.524 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：2， 耗时：3.400 μs
+2020-05-21 18:11:33.524 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：3， 耗时：2.400 μs
+2020-05-21 18:11:33.525 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：4， 耗时：3.300 μs
+2020-05-21 18:12:23.524 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 7完成任务， 耗时：50.00 s
+2020-05-21 18:12:23.529 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 6完成任务， 耗时：50.01 s
+2020-05-21 18:12:23.529 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 9完成任务， 耗时：50.01 s
+2020-05-21 18:12:23.530 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 8完成任务， 耗时：50.01 s
+2020-05-21 18:12:23.530 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 5完成任务， 耗时：50.01 s
+2020-05-21 18:12:23.531 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：5， 耗时：50.01 s
+2020-05-21 18:12:23.532 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：6， 耗时：2.300 μs
+2020-05-21 18:12:23.532 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：7， 耗时：2.100 μs
+2020-05-21 18:12:23.533 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：8， 耗时：2.700 μs
+2020-05-21 18:12:23.533 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：9， 耗时：2.900 μs
+2020-05-21 18:12:23.558 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 18:12:23.569 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 18:12:23.581 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 18:12:23.582 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 18:12:23.582 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 18:12:23.584 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 18:12:23.591 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 18:12:23.610 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 18:12:23.618 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 18:12:23.625 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed
+2020-05-21 18:14:01.562 [main] INFO  org.jeecg.modules.test.ThreadTestCase:50 - Starting ThreadTestCase on cmcc-PC with PID 5204 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)
+2020-05-21 18:14:01.570 [main] INFO  org.jeecg.modules.test.ThreadTestCase:679 - The following profiles are active: dev
+2020-05-21 18:14:07.858 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner:166 - No MyBatis mapper was found in '[org.jeecg.config.rule.mapper.*]' package. Please check your configuration.
+2020-05-21 18:14:09.020 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 18:14:09.034 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 18:14:09.320 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 271ms. Found 0 repository interfaces.
+2020-05-21 18:14:09.347 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-21 18:14:09.357 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 18:14:09.565 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 185ms. Found 0 repository interfaces.
+2020-05-21 18:14:11.406 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$dfa16fc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:11.886 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:18.090 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:18.320 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:18.491 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf9c0630] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:19.350 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:19.375 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$292a7701] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:19.407 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:19.437 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:19.521 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:19.565 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$d4b5c47a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:20.305 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:20.702 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:20.815 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$2a6ff710] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:21.103 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$d2b4e3e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:21.127 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 18:14:21.940 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-05-21 18:14:22.878 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-05-21 18:14:22.961 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-2,input} inited
+2020-05-21 18:14:23.053 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-3,predict} inited
+2020-05-21 18:14:23.054 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 3 个数据源
+2020-05-21 18:14:23.055 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 input 成功
+2020-05-21 18:14:23.056 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 predict 成功
+2020-05-21 18:14:23.057 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-05-21 18:14:23.058 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-05-21 18:14:25.240 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.
+2020-05-21 18:14:25.407 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.
+2020-05-21 18:14:25.548 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.
+2020-05-21 18:14:33.764 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:14:33.948 [cluster-ClusterId{value='5ec6548937d1611454c7d66b', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:90}] to localhost:27017
+2020-05-21 18:14:33.957 [cluster-ClusterId{value='5ec6548937d1611454c7d66b', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6598400}
+2020-05-21 18:14:36.941 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:14:37.091 [cluster-ClusterId{value='5ec6548c37d1611454c7d66c', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:2, serverValue:91}] to localhost:27017
+2020-05-21 18:14:37.094 [cluster-ClusterId{value='5ec6548c37d1611454c7d66c', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1354200}
+2020-05-21 18:14:37.347 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:14:37.408 [cluster-ClusterId{value='5ec6548d37d1611454c7d66d', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:3, serverValue:92}] to localhost:27017
+2020-05-21 18:14:37.410 [cluster-ClusterId{value='5ec6548d37d1611454c7d66d', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=858500}
+2020-05-21 18:14:38.406 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-05-21 18:14:38.450 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-21 18:14:38.452 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-05-21 18:14:38.465 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-05-21 18:14:38.471 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-05-21 18:14:38.474 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-05-21 18:14:38.490 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-21 18:14:38.491 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-05-21 18:14:38.494 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@761ea1f5
+2020-05-21 18:14:49.146 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-21 18:14:50.379 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 18:14:50.633 [main] INFO  org.jeecg.modules.executor.handle.ExecutorConfig:35 - start asyncServiceExecutor
+2020-05-21 18:14:50.651 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService
+2020-05-21 18:14:50.707 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:171 - Initializing ExecutorService 'asyncServiceExecutor'
+2020-05-21 18:14:56.115 [main] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-05-21 18:14:56.246 [cluster-ClusterId{value='5ec654a037d1611454c7d66e', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:4, serverValue:93}] to localhost:27017
+2020-05-21 18:14:56.248 [cluster-ClusterId{value='5ec654a037d1611454c7d66e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1087400}
+2020-05-21 18:15:00.747 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-05-21 18:15:00.833 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-05-21 18:15:01.086 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-05-21 18:15:01.925 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-05-21 18:15:01.930 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-05-21 18:15:01.935 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-05-21 18:15:01.952 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-05-21 18:15:02.005 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-05-21 18:15:02.608 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-05-21 18:15:02.624 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-05-21 18:15:02.624 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-05-21 18:15:02.627 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-05-21 18:15:02.631 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-05-21 18:15:02.635 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-21 18:15:02.691 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - Started ThreadTestCase in 63.321 seconds (JVM running for 66.949)
+2020-05-21 18:15:03.459 [main] INFO  org.jeecg.modules.test.ThreadTestCase:57 - ================= run_task_two_plus =======================
+2020-05-21 18:15:03.461 [main] INFO  org.jeecg.modules.test.ThreadTestCase:59 - 开始请求任务2
+2020-05-21 18:15:03.468 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]
+2020-05-21 18:15:03.470 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]
+2020-05-21 18:15:03.471 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]
+2020-05-21 18:15:03.472 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]
+2020-05-21 18:15:03.473 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]
+2020-05-21 18:15:03.474 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]
+2020-05-21 18:15:03.475 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]
+2020-05-21 18:15:03.476 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]
+2020-05-21 18:15:03.477 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]
+2020-05-21 18:15:03.480 [main] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:39 - async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]
+2020-05-21 18:15:03.497 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务0
+2020-05-21 18:15:03.506 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务1
+2020-05-21 18:15:03.509 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务2
+2020-05-21 18:15:03.519 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务3
+2020-05-21 18:15:03.521 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务4
+2020-05-21 18:15:53.499 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 0完成任务， 耗时：50.00 s
+2020-05-21 18:15:53.505 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：0， 耗时：50.02 s
+2020-05-21 18:15:53.505 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务5
+2020-05-21 18:15:53.511 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 1完成任务， 耗时：50.00 s
+2020-05-21 18:15:53.512 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：1， 耗时：5.239 ms
+2020-05-21 18:15:53.512 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务6
+2020-05-21 18:15:53.519 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 2完成任务， 耗时：50.01 s
+2020-05-21 18:15:53.519 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：2， 耗时：6.883 ms
+2020-05-21 18:15:53.521 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务7
+2020-05-21 18:15:53.527 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 3完成任务， 耗时：50.01 s
+2020-05-21 18:15:53.527 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：3， 耗时：6.417 ms
+2020-05-21 18:15:53.528 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务8
+2020-05-21 18:15:53.529 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 4完成任务， 耗时：50.01 s
+2020-05-21 18:15:53.529 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:61 - 开始做任务9
+2020-05-21 18:15:53.529 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：4， 耗时：1.145 ms
+2020-05-21 18:16:43.506 [async-service-1] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 5完成任务， 耗时：50.00 s
+2020-05-21 18:16:43.509 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：5， 耗时：49.98 s
+2020-05-21 18:16:43.514 [async-service-2] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 6完成任务， 耗时：50.00 s
+2020-05-21 18:16:43.514 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：6， 耗时：4.694 ms
+2020-05-21 18:16:43.522 [async-service-3] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 7完成任务， 耗时：50.00 s
+2020-05-21 18:16:43.522 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：7， 耗时：7.458 ms
+2020-05-21 18:16:43.530 [async-service-4] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 8完成任务， 耗时：50.00 s
+2020-05-21 18:16:43.530 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：8， 耗时：7.309 ms
+2020-05-21 18:16:43.544 [async-service-5] INFO  o.j.modules.executor.service.impl.AsyncServiceImpl:67 - 9完成任务， 耗时：50.01 s
+2020-05-21 18:16:43.544 [main] INFO  org.jeecg.modules.test.ThreadTestCase:68 - 完成请求任务2，返回结果：9， 耗时：13.31 ms
+2020-05-21 18:16:43.571 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 18:16:43.585 [Thread-5] INFO  o.j.m.e.handle.VisiableThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'asyncServiceExecutor'
+2020-05-21 18:16:43.596 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-05-21 18:16:43.596 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-21 18:16:43.597 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-21 18:16:43.599 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-21 18:16:43.606 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-05-21 18:16:43.626 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-2} closed
+2020-05-21 18:16:43.634 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-3} closed
+2020-05-21 18:16:43.641 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed

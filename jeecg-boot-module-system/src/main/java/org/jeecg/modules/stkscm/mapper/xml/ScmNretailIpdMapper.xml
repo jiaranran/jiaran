@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.stkscm.mapper.ScmNretailIpdMapper">
+
+    <insert id="save" parameterType="java.util.List">
+        INSERT into scm_nretail_ipd (`prov`, `ds`, `matnr`, `cnt`) values
+        <foreach collection ="list" item="scmNretailIpd" separator =",">
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                    #{scmNretailIpd.prov,jdbcType=VARCHAR},
+                    #{scmNretailIpd.ds,jdbcType=DATE},
+                    #{scmNretailIpd.matnr,jdbcType=VARCHAR},
+                    #{scmNretailIpd.cnt,jdbcType=DECIMAL}
+            </trim>
+        </foreach >
+    </insert>
+    <insert id="saveOne" parameterType="org.jeecg.modules.stkpredict.entity.ScmNretailIpd">
+        INSERT into scm_nretail_ipd (`prov`, `ds`, `matnr`, `cnt`) values
+        (#{prov,jdbcType=VARCHAR},
+        #{ds,jdbcType=DATE},
+        #{matnr,jdbcType=VARCHAR},
+        #{cnt,jdbcType=DECIMAL})
+    </insert>
+    <update  id="truncate">
+        TRUNCATE TABLE scm_nretail_ipd
+    </update >
+    <select id="getAll" resultType="org.jeecg.modules.stkpredict.entity.ScmNretailIpd">
+        SELECT id,matnr, prov,ds ,cnt FROM scm_nretail_ipd ORDER  BY  prov,matnr,ds
+    </select>
+    <select id="countByGpw" resultType="org.jeecg.modules.stkscm.vo.ScmNretailpiVo">
+        SELECT prov,matnr  FROM scm_nretail_ipd GROUP BY prov, matnr
+    </select>
+</mapper>

@@ -1,0 +1,3513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sat May 23 18:27:39 CST 2020</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:40,127</td>
+<td class="Message">Starting ThreadTestCase on cmcc-PC with PID 24340 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:40,135</td>
+<td class="Message">The following profiles are active: dev</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">679</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:27:46,657</td>
+<td class="Message">No MyBatis mapper was found in &#39;[org.jeecg.config.rule.mapper.*]&#39; package. Please check your configuration.</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">ClassPathMapperScanner.java</td>
+<td class="LineOfCaller">166</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:48,351</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:48,357</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:48,769</td>
+<td class="Message">Finished Spring Data repository scanning in 396ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:48,810</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:48,815</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:49,118</td>
+<td class="Message">Finished Spring Data repository scanning in 276ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:51,511</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$f208aa2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:27:52,137</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:00,947</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:01,193</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:01,390</td>
+<td class="Message">Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2034095] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:02,620</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:02,637</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3b91b166] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:02,731</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:02,766</td>
+<td class="Message">Bean &#39;dynamicDatasourceAnnotationAdvisor&#39; of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:02,882</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:02,938</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$e71cfedf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:03,830</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:04,453</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:04,503</td>
+<td class="Message">Bean &#39;redisConfig&#39; of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$3cd73175] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:04,851</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$e51c1e45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:04,877</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:05,952</td>
+<td class="Message">动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DynamicDataSourceCreator.java</td>
+<td class="LineOfCaller">109</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,628</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,756</td>
+<td class="Message">{dataSource-2,input} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,933</td>
+<td class="Message">{dataSource-3,predict} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,935</td>
+<td class="Message">初始共加载 3 个数据源</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">189</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,937</td>
+<td class="Message">动态数据源-加载 input 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,938</td>
+<td class="Message">动态数据源-加载 predict 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,939</td>
+<td class="Message">动态数据源-加载 master 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:07,940</td>
+<td class="Message">当前的默认数据源是单数据源，数据源名为 master</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">198</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:28:10,393</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:28:10,763</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:28:11,015</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:21,459</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:21,630</td>
+<td class="Message">Opened connection [connectionId{localValue:1, serverValue:155}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:21,649</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8346600}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:24,492</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:24,594</td>
+<td class="Message">Opened connection [connectionId{localValue:2, serverValue:156}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:24,596</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1524500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:24,758</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:24,913</td>
+<td class="Message">Opened connection [connectionId{localValue:3, serverValue:157}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:24,915</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1108500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,747</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1208</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,821</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,823</td>
+<td class="Message">Quartz Scheduler v.2.3.0 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,847</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,855</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,859</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.0) &#39;quartzScheduler&#39; with instanceId &#39;NON_CLUSTERED&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is not clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,862</td>
+<td class="Message">Quartz scheduler &#39;quartzScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1362</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,863</td>
+<td class="Message">Quartz scheduler version: 2.3.0</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1366</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:25,864</td>
+<td class="Message">JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7da0587a</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2287</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:37,877</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:39,474</td>
+<td class="Message">Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]</td>
+<td class="MethodOfCaller">initHandlerMethods</td>
+<td class="FileOfCaller">PropertySourcedRequestMappingHandlerMapping.java</td>
+<td class="LineOfCaller">69</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:39,811</td>
+<td class="Message">start asyncServiceExecutor</td>
+<td class="MethodOfCaller">asyncServiceExecutor</td>
+<td class="FileOfCaller">ExecutorConfig.java</td>
+<td class="LineOfCaller">35</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:39,822</td>
+<td class="Message">Initializing ExecutorService</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:39,912</td>
+<td class="Message">Initializing ExecutorService &#39;asyncServiceExecutor&#39;</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:46,274</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:46,449</td>
+<td class="Message">Opened connection [connectionId{localValue:4, serverValue:158}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:46,453</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2305100}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:51,478</td>
+<td class="Message">Context refreshed</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">160</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:51,567</td>
+<td class="Message">Found 1 custom documentation plugin(s)</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:51,728</td>
+<td class="Message">Scanning for api listing references</td>
+<td class="MethodOfCaller">scan</td>
+<td class="FileOfCaller">ApiListingReferenceScanner.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:52,490</td>
+<td class="Message">Generating unique operation named: addUsingPOST_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:52,495</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:52,515</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:52,527</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:52,585</td>
+<td class="Message">Starting Quartz Scheduler now</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">726</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,183</td>
+<td class="Message">Freed 0 triggers from &#39;acquired&#39; / &#39;blocked&#39; state.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">866</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,203</td>
+<td class="Message">Recovering 0 jobs that were in-progress at the time of the last shut-down.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">876</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,204</td>
+<td class="Message">Recovery complete.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">889</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,206</td>
+<td class="Message">Removed 0 &#39;complete&#39; triggers.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">896</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,210</td>
+<td class="Message">Removed 0 stale fired job entries.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">901</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,213</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,256</td>
+<td class="Message">Started ThreadTestCase in 75.849 seconds (JVM running for 79.46)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,855</td>
+<td class="Message">================= run_task_two_plus =======================</td>
+<td class="MethodOfCaller">testRunTaskTwoPlus</td>
+<td class="FileOfCaller">ThreadTestCase.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,856</td>
+<td class="Message">开始请求任务2</td>
+<td class="MethodOfCaller">testRunTaskTwoPlus</td>
+<td class="FileOfCaller">ThreadTestCase.java</td>
+<td class="LineOfCaller">63</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,864</td>
+<td class="Message">async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,866</td>
+<td class="Message">async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,867</td>
+<td class="Message">async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,868</td>
+<td class="Message">async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,869</td>
+<td class="Message">async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,870</td>
+<td class="Message">async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,872</td>
+<td class="Message">async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,873</td>
+<td class="Message">async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,874</td>
+<td class="Message">async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,874</td>
+<td class="Message">async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,875</td>
+<td class="Message">async-service-, 2. do submit,taskCount [10], completedTaskCount [0], activeCount [5], queueSize [5]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,902</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\0scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\0scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/0scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,904</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\1scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\1scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/1scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,907</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\2scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\2scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/2scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,909</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\3scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\3scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/3scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,910</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\4scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\4scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/4scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,921</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,934</td>
+<td class="Message">Shutting down ExecutorService &#39;asyncServiceExecutor&#39;</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,949</td>
+<td class="Message">Shutting down Quartz Scheduler</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">844</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,950</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">666</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,950</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,956</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">740</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,965</td>
+<td class="Message">closing dynamicDatasource  ing....</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,985</td>
+<td class="Message">{dataSource-2} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:53,994</td>
+<td class="Message">{dataSource-3} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:28:54,002</td>
+<td class="Message">{dataSource-1} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sat May 23 18:32:17 CST 2020</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:18,322</td>
+<td class="Message">Starting ThreadTestCase on cmcc-PC with PID 20776 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:18,327</td>
+<td class="Message">The following profiles are active: dev</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">679</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:32:24,523</td>
+<td class="Message">No MyBatis mapper was found in &#39;[org.jeecg.config.rule.mapper.*]&#39; package. Please check your configuration.</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">ClassPathMapperScanner.java</td>
+<td class="LineOfCaller">166</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:26,530</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:26,536</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:26,967</td>
+<td class="Message">Finished Spring Data repository scanning in 374ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:27,000</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:27,005</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:27,401</td>
+<td class="Message">Finished Spring Data repository scanning in 314ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:29,843</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$5154e15c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:30,449</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:38,893</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:39,148</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:39,306</td>
+<td class="Message">Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$314f77c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:40,329</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:40,354</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9adde897] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:40,400</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:40,424</td>
+<td class="Message">Bean &#39;dynamicDatasourceAnnotationAdvisor&#39; of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:40,529</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:40,583</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$46693610] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:41,496</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:41,989</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:42,067</td>
+<td class="Message">Bean &#39;redisConfig&#39; of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$9c2368a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:42,378</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$44685576] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:42,422</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:43,488</td>
+<td class="Message">动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DynamicDataSourceCreator.java</td>
+<td class="LineOfCaller">109</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,591</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,666</td>
+<td class="Message">{dataSource-2,input} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,806</td>
+<td class="Message">{dataSource-3,predict} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,807</td>
+<td class="Message">初始共加载 3 个数据源</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">189</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,809</td>
+<td class="Message">动态数据源-加载 input 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,810</td>
+<td class="Message">动态数据源-加载 predict 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,814</td>
+<td class="Message">动态数据源-加载 master 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:44,816</td>
+<td class="Message">当前的默认数据源是单数据源，数据源名为 master</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">198</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:32:47,557</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:32:47,832</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:32:47,984</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:58,733</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:58,883</td>
+<td class="Message">Opened connection [connectionId{localValue:1, serverValue:159}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:32:58,909</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9495200}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:02,075</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:02,198</td>
+<td class="Message">Opened connection [connectionId{localValue:2, serverValue:160}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:02,200</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1631800}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:02,337</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:02,448</td>
+<td class="Message">Opened connection [connectionId{localValue:3, serverValue:161}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:02,450</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=951500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,191</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1208</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,239</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,242</td>
+<td class="Message">Quartz Scheduler v.2.3.0 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,260</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,274</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,277</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.0) &#39;quartzScheduler&#39; with instanceId &#39;NON_CLUSTERED&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is not clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,278</td>
+<td class="Message">Quartz scheduler &#39;quartzScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1362</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,280</td>
+<td class="Message">Quartz scheduler version: 2.3.0</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1366</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:03,281</td>
+<td class="Message">JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2d398cfb</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2287</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:14,281</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:15,848</td>
+<td class="Message">Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]</td>
+<td class="MethodOfCaller">initHandlerMethods</td>
+<td class="FileOfCaller">PropertySourcedRequestMappingHandlerMapping.java</td>
+<td class="LineOfCaller">69</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:16,171</td>
+<td class="Message">start asyncServiceExecutor</td>
+<td class="MethodOfCaller">asyncServiceExecutor</td>
+<td class="FileOfCaller">ExecutorConfig.java</td>
+<td class="LineOfCaller">35</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:16,183</td>
+<td class="Message">Initializing ExecutorService</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:16,260</td>
+<td class="Message">Initializing ExecutorService &#39;asyncServiceExecutor&#39;</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:24,277</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:24,397</td>
+<td class="Message">Opened connection [connectionId{localValue:4, serverValue:162}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:24,399</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1043600}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:29,125</td>
+<td class="Message">Context refreshed</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">160</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:29,206</td>
+<td class="Message">Found 1 custom documentation plugin(s)</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:29,332</td>
+<td class="Message">Scanning for api listing references</td>
+<td class="MethodOfCaller">scan</td>
+<td class="FileOfCaller">ApiListingReferenceScanner.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,076</td>
+<td class="Message">Generating unique operation named: addUsingPOST_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,082</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,088</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,097</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,157</td>
+<td class="Message">Starting Quartz Scheduler now</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">726</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,591</td>
+<td class="Message">Freed 0 triggers from &#39;acquired&#39; / &#39;blocked&#39; state.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">866</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,609</td>
+<td class="Message">Recovering 0 jobs that were in-progress at the time of the last shut-down.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">876</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,609</td>
+<td class="Message">Recovery complete.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">889</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,613</td>
+<td class="Message">Removed 0 &#39;complete&#39; triggers.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">896</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,616</td>
+<td class="Message">Removed 0 stale fired job entries.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">901</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,619</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:30,676</td>
+<td class="Message">Started ThreadTestCase in 74.786 seconds (JVM running for 79.077)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,344</td>
+<td class="Message">================= run_task_two_plus =======================</td>
+<td class="MethodOfCaller">testRunTaskTwoPlus</td>
+<td class="FileOfCaller">ThreadTestCase.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,345</td>
+<td class="Message">开始请求任务2</td>
+<td class="MethodOfCaller">testRunTaskTwoPlus</td>
+<td class="FileOfCaller">ThreadTestCase.java</td>
+<td class="LineOfCaller">63</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,353</td>
+<td class="Message">async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,354</td>
+<td class="Message">async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,357</td>
+<td class="Message">async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,358</td>
+<td class="Message">async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,359</td>
+<td class="Message">async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,360</td>
+<td class="Message">async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,362</td>
+<td class="Message">async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,363</td>
+<td class="Message">async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,364</td>
+<td class="Message">async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,365</td>
+<td class="Message">async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,366</td>
+<td class="Message">async-service-, 2. do submit,taskCount [10], completedTaskCount [0], activeCount [5], queueSize [5]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,442</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\0scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\0scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/0scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,443</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\2scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\2scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/2scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,444</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\4scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\4scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/4scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,445</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\1scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\1scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/1scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:31,461</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\3scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\3scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/3scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,444</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,444</td>
+<td class="Message">0scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,445</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,445</td>
+<td class="Message">2scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,447</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,447</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,447</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\5scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\5scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/5scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,447</td>
+<td class="Message">1scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,448</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\6scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\6scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/6scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,447</td>
+<td class="Message">4scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,448</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\7scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\7scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/7scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,448</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\8scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\8scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/8scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,462</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,462</td>
+<td class="Message">3scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:41,462</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\9scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\9scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/9scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,448</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,448</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,448</td>
+<td class="Message">5scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,448</td>
+<td class="Message">6scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,449</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,450</td>
+<td class="Message">8scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,449</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,451</td>
+<td class="Message">7scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,464</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:33:51,464</td>
+<td class="Message">9scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,399</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,411</td>
+<td class="Message">Shutting down ExecutorService &#39;asyncServiceExecutor&#39;</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">208</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,423</td>
+<td class="Message">Shutting down Quartz Scheduler</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">844</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,424</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">666</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,424</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,426</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">740</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,433</td>
+<td class="Message">closing dynamicDatasource  ing....</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,456</td>
+<td class="Message">{dataSource-2} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,464</td>
+<td class="Message">{dataSource-3} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:35:11,470</td>
+<td class="Message">{dataSource-1} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sat May 23 18:38:24 CST 2020</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:25,201</td>
+<td class="Message">Starting ThreadTestCase on cmcc-PC with PID 14688 (started by cmcc in D:\software\zhongduan\jeecg-boot\jeecg-boot-module-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:25,211</td>
+<td class="Message">The following profiles are active: dev</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">679</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:38:31,347</td>
+<td class="Message">No MyBatis mapper was found in &#39;[org.jeecg.config.rule.mapper.*]&#39; package. Please check your configuration.</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">ClassPathMapperScanner.java</td>
+<td class="LineOfCaller">166</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:32,935</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:32,940</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:33,365</td>
+<td class="Message">Finished Spring Data repository scanning in 409ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:33,392</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:33,402</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:33,590</td>
+<td class="Message">Finished Spring Data repository scanning in 169ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:36,151</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$61695d48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:36,798</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:45,360</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:45,642</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:45,803</td>
+<td class="Message">Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4163f3b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:46,774</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:46,789</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$aaf26483] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:46,858</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:46,892</td>
+<td class="Message">Bean &#39;dynamicDatasourceAnnotationAdvisor&#39; of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:47,002</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:47,050</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$567db1fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:47,953</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:48,565</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:48,614</td>
+<td class="Message">Bean &#39;redisConfig&#39; of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$ac37e492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:48,949</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$547cd162] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:48,975</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:50,517</td>
+<td class="Message">动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DynamicDataSourceCreator.java</td>
+<td class="LineOfCaller">109</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,689</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,754</td>
+<td class="Message">{dataSource-2,input} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,829</td>
+<td class="Message">{dataSource-3,predict} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,830</td>
+<td class="Message">初始共加载 3 个数据源</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">189</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,832</td>
+<td class="Message">动态数据源-加载 input 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,833</td>
+<td class="Message">动态数据源-加载 predict 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,834</td>
+<td class="Message">动态数据源-加载 master 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">135</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:38:51,835</td>
+<td class="Message">当前的默认数据源是单数据源，数据源名为 master</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">198</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:38:54,467</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.predict.entity.ScmNretail.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:38:54,825</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.result.entity.ScmNretailResult.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2020-05-23 18:38:54,979</td>
+<td class="Message">Warn: Could not find @TableId in Class: org.jeecg.modules.predict.vo.ScmNretailIpdVo.</td>
+<td class="MethodOfCaller">initTableFields</td>
+<td class="FileOfCaller">TableInfoHelper.java</td>
+<td class="LineOfCaller">250</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:05,399</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:05,555</td>
+<td class="Message">Opened connection [connectionId{localValue:1, serverValue:163}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:05,567</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5881600}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:08,503</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:08,704</td>
+<td class="Message">Opened connection [connectionId{localValue:2, serverValue:164}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:08,709</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3708300}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:08,797</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:08,862</td>
+<td class="Message">Opened connection [connectionId{localValue:3, serverValue:165}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:08,864</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1229100}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,762</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1208</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,813</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,815</td>
+<td class="Message">Quartz Scheduler v.2.3.0 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,831</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,839</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,843</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.0) &#39;quartzScheduler&#39; with instanceId &#39;NON_CLUSTERED&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is not clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,845</td>
+<td class="Message">Quartz scheduler &#39;quartzScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1362</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,846</td>
+<td class="Message">Quartz scheduler version: 2.3.0</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1366</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:09,847</td>
+<td class="Message">JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6414eb98</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2287</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:21,952</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:23,502</td>
+<td class="Message">Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]</td>
+<td class="MethodOfCaller">initHandlerMethods</td>
+<td class="FileOfCaller">PropertySourcedRequestMappingHandlerMapping.java</td>
+<td class="LineOfCaller">69</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:23,861</td>
+<td class="Message">start asyncServiceExecutor</td>
+<td class="MethodOfCaller">asyncServiceExecutor</td>
+<td class="FileOfCaller">ExecutorConfig.java</td>
+<td class="LineOfCaller">35</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:23,973</td>
+<td class="Message">Initializing ExecutorService</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:24,069</td>
+<td class="Message">Initializing ExecutorService &#39;asyncServiceExecutor&#39;</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:30,698</td>
+<td class="Message">Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&#39;30000 ms&#39;, maxWaitQueueSize=500}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:30,962</td>
+<td class="Message">Opened connection [connectionId{localValue:4, serverValue:166}] to localhost:27017</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:30,964</td>
+<td class="Message">Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=991800}</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">SLF4JLogger.java</td>
+<td class="LineOfCaller">71</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:36,412</td>
+<td class="Message">Context refreshed</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">160</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:36,511</td>
+<td class="Message">Found 1 custom documentation plugin(s)</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:36,638</td>
+<td class="Message">Scanning for api listing references</td>
+<td class="MethodOfCaller">scan</td>
+<td class="FileOfCaller">ApiListingReferenceScanner.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,402</td>
+<td class="Message">Generating unique operation named: addUsingPOST_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,407</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,413</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,421</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,469</td>
+<td class="Message">Starting Quartz Scheduler now</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">726</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,969</td>
+<td class="Message">Freed 0 triggers from &#39;acquired&#39; / &#39;blocked&#39; state.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">866</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,987</td>
+<td class="Message">Recovering 0 jobs that were in-progress at the time of the last shut-down.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">876</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,988</td>
+<td class="Message">Recovery complete.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">889</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,991</td>
+<td class="Message">Removed 0 &#39;complete&#39; triggers.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">896</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,995</td>
+<td class="Message">Removed 0 stale fired job entries.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">901</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:37,998</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,051</td>
+<td class="Message">Started ThreadTestCase in 77.405 seconds (JVM running for 81.023)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,656</td>
+<td class="Message">================= run_task_two_plus =======================</td>
+<td class="MethodOfCaller">testRunTaskTwoPlus</td>
+<td class="FileOfCaller">ThreadTestCase.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,657</td>
+<td class="Message">开始请求任务2</td>
+<td class="MethodOfCaller">testRunTaskTwoPlus</td>
+<td class="FileOfCaller">ThreadTestCase.java</td>
+<td class="LineOfCaller">63</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,665</td>
+<td class="Message">async-service-, 2. do submit,taskCount [0], completedTaskCount [0], activeCount [0], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,666</td>
+<td class="Message">async-service-, 2. do submit,taskCount [1], completedTaskCount [0], activeCount [1], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,667</td>
+<td class="Message">async-service-, 2. do submit,taskCount [2], completedTaskCount [0], activeCount [2], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,668</td>
+<td class="Message">async-service-, 2. do submit,taskCount [3], completedTaskCount [0], activeCount [3], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,669</td>
+<td class="Message">async-service-, 2. do submit,taskCount [4], completedTaskCount [0], activeCount [4], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,671</td>
+<td class="Message">async-service-, 2. do submit,taskCount [5], completedTaskCount [0], activeCount [5], queueSize [0]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,672</td>
+<td class="Message">async-service-, 2. do submit,taskCount [6], completedTaskCount [0], activeCount [5], queueSize [1]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,673</td>
+<td class="Message">async-service-, 2. do submit,taskCount [7], completedTaskCount [0], activeCount [5], queueSize [2]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,674</td>
+<td class="Message">async-service-, 2. do submit,taskCount [8], completedTaskCount [0], activeCount [5], queueSize [3]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,675</td>
+<td class="Message">async-service-, 2. do submit,taskCount [9], completedTaskCount [0], activeCount [5], queueSize [4]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,679</td>
+<td class="Message">async-service-, 2. do submit,taskCount [10], completedTaskCount [0], activeCount [5], queueSize [5]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,680</td>
+<td class="Message">async-service-, 2. do submit,taskCount [11], completedTaskCount [0], activeCount [5], queueSize [6]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,680</td>
+<td class="Message">async-service-, 2. do submit,taskCount [12], completedTaskCount [0], activeCount [5], queueSize [7]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,681</td>
+<td class="Message">async-service-, 2. do submit,taskCount [13], completedTaskCount [0], activeCount [5], queueSize [8]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,682</td>
+<td class="Message">async-service-, 2. do submit,taskCount [14], completedTaskCount [0], activeCount [5], queueSize [9]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,683</td>
+<td class="Message">async-service-, 2. do submit,taskCount [15], completedTaskCount [0], activeCount [5], queueSize [10]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,684</td>
+<td class="Message">async-service-, 2. do submit,taskCount [16], completedTaskCount [0], activeCount [5], queueSize [11]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,685</td>
+<td class="Message">async-service-, 2. do submit,taskCount [17], completedTaskCount [0], activeCount [5], queueSize [12]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,686</td>
+<td class="Message">async-service-, 2. do submit,taskCount [18], completedTaskCount [0], activeCount [5], queueSize [13]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,687</td>
+<td class="Message">async-service-, 2. do submit,taskCount [19], completedTaskCount [0], activeCount [5], queueSize [14]</td>
+<td class="MethodOfCaller">showThreadPoolInfo</td>
+<td class="FileOfCaller">VisiableThreadPoolTaskExecutor.java</td>
+<td class="LineOfCaller">39</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,699</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\0scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\0scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/0scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,699</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\2scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\2scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/2scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:38,700</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\1scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\1scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/1scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,700</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,700</td>
+<td class="Message">0scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,701</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,701</td>
+<td class="Message">2scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,702</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,702</td>
+<td class="Message">1scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,704</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\3scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\3scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/3scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,704</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\4scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\4scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/4scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:48,704</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\5scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\5scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/5scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,704</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,704</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,704</td>
+<td class="Message">3scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,704</td>
+<td class="Message">4scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,705</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\6scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\6scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/6scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,705</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\7scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\7scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/7scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,711</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,711</td>
+<td class="Message">5scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:39:58,712</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\8scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\8scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/8scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:08,706</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:08,706</td>
+<td class="Message">6scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:08,707</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:08,707</td>
+<td class="Message">exec_python_command : /opt/anaconda3/bin/python /root/cmdc/bin/python/main_online_go.py -i D:\\Desktop\\office\\out\\9scm_nretail_ipw_002127096701003000_440000.csv -o D:\\Desktop\\office\\result\\9scm_nretail_ipw_002127096701003000_440000.csv |tee -a /root/cmdc/log/9scm_nretail_ipw_002127096701003000_440000.log</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:08,707</td>
+<td class="Message">7scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:08,713</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:08,713</td>
+<td class="Message">8scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:18,708</td>
+<td class="Message">python exit result: true</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">85</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:40:18,709</td>
+<td class="Message">9scm_nretail_ipw_002127096701003000_440000.csv脚本运行时间：10秒</td>
+<td class="MethodOfCaller">predict</td>
+<td class="FileOfCaller">PythonCommand.java</td>
+<td class="LineOfCaller">87</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,704</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,715</td>
+<td class="Message">Shutting down ExecutorService &#39;asyncServiceExecutor&#39;</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,725</td>
+<td class="Message">Shutting down Quartz Scheduler</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">844</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,726</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">666</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,726</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,728</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">740</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,735</td>
+<td class="Message">closing dynamicDatasource  ing....</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,752</td>
+<td class="Message">{dataSource-2} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,759</td>
+<td class="Message">{dataSource-3} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2020-05-23 18:41:18,766</td>
+<td class="Message">{dataSource-1} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1825</td>
+</tr>
